@@ -16,17 +16,28 @@ const Read = () => {
   return (
     <div className="d-flex justify-content-center align-items-center bg-light vh-100 w-100">
       <div className="w-50 border bg-white shadow px-5 pt-3 pb-5 rounded">
-        <h3>Details of User</h3>
+        <h3 style={{ color: "darkcyan", fontStyle: "italic" }}>
+          Details of User
+        </h3>
 
-        <div className="mb-2">
+        <div
+          className="mb-2 p-2 "
+          style={{ color: "darkgray", fontStyle: "italic" }}
+        >
           <strong>Name: {data.name}</strong>
         </div>
 
-        <div className="mb-2">
+        <div
+          className="mb-2 p-2"
+          style={{ color: "darkgray", fontStyle: "italic" }}
+        >
           <strong>Email: {data.email}</strong>
         </div>
 
-        <div className="mb-2">
+        <div
+          className="mb-2 p-2"
+          style={{ color: "darkgray", fontStyle: "italic" }}
+        >
           <strong>Name: {data.phone}</strong>
         </div>
 

@@ -18,6 +18,7 @@ const Update = () => {
       .catch((error) => console.log(error));
   }, [id]);
 
+  //to update the contact
   const handleUpdate = (e) => {
     e.preventDefault();
     axios
@@ -32,7 +33,7 @@ const Update = () => {
   return (
     <div className="d-flex w-100 vh-100 justify-content-center align-items-center bg-light">
       <div className="w-50 border bg-white shadow px-5 pt-3 pb-5 rounded">
-        <h1>Update a User</h1>
+        <h1>Update User</h1>
         <form onSubmit={handleUpdate}>
           <div className="mb-2">
             <label htmlFor="name">Name:</label>
